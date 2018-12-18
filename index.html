@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Globo 3D</title>
+		<style>
+			body { 
+				margin: 0; 
+				background-image: url("background.jpg");
+				/*background-position: center;*/
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-color: #000; 
+			}
+			canvas { width: 100%; height: 100% }
+			
+			#3d-container{
+				width:1024px;
+				height: 768px;
+			}
+			
+		</style>
+		<script src="js/three.min.js"></script>
+		<script src="js/ColladaLoader.js"></script>
+		<script src="js/TrackballControls.js"></script>
+		<script src="js/OrbitControls.js"></script>
+		<script src="js/custom1.js"></script>
+	</head>
+	<body>
+		<div id="3d-container"></div>
+	</body>
+</html>
